@@ -10,6 +10,10 @@ namespace TestBranches
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Bonjour!");
+
+            Console.WriteLine("Appuyez sur une touche pour continuer...");
+            Console.ReadKey(true);
         }
     }
 }
