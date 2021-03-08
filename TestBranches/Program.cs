@@ -14,6 +14,19 @@ namespace TestBranches
 
             Console.WriteLine("Appuyez sur une touche pour continuer...");
             Console.ReadKey(true);
+
+            Console.Clear();
+
+            Console.WriteLine("Veuillez entrer un chiffre");
+            try
+            {
+                int nombre = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Votre chiffre est {0}", nombre);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("Ouai non.");
+            }
         }
     }
 }
